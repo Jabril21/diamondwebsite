@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #003366; /* Blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img.logo {
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Yellow */
+}
+
+/* Section Styling */
+section {
+    padding: 40px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.hero {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 2em;
+}
+
+.services-preview ul, .services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services-preview li, .services li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
